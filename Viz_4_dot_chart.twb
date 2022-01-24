@@ -1,0 +1,810 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20211.21.0511.0935                               -->
+<workbook source-build='2021.1.2 (20211.21.0511.0935)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='pouch_2022-01-10_00-38 (gen_pouch_exc)' inline='true' name='federated.1mg75pr0bf9kjw13ajspo1kfiy6v' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='gen_pouch_exc' name='excel-direct.0w3jqy31se3gjq13pxm7u022dup0'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/dafnam/PycharmProjects/DataViz/Viz_4_dot_chart.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0w3jqy31se3gjq13pxm7u022dup0' name='pouch_2022-01-10_00-38' table='[&apos;pouch_2022-01-10_00-38$&apos;]' type='table'>
+          <columns gridOrigin='A1:F13301:no:A1:F13301:0' header='yes' outcome='2'>
+            <column datatype='string' name='Id' ordinal='0' />
+            <column datatype='string' name='Created_By' ordinal='1' />
+            <column datatype='datetime' name='Created_On' ordinal='2' />
+            <column datatype='string' name='Gen' ordinal='3' />
+            <column datatype='real' name='Engy_Gravimetric_10C_Ff1' ordinal='4' />
+            <column datatype='integer' name='Hc_80_Cap_Cycles' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0w3jqy31se3gjq13pxm7u022dup0' name='pouch_2022-01-10_00-38' table='[&apos;pouch_2022-01-10_00-38$&apos;]' type='table'>
+          <columns gridOrigin='A1:F13301:no:A1:F13301:0' header='yes' outcome='2'>
+            <column datatype='string' name='Id' ordinal='0' />
+            <column datatype='string' name='Created_By' ordinal='1' />
+            <column datatype='datetime' name='Created_On' ordinal='2' />
+            <column datatype='string' name='Gen' ordinal='3' />
+            <column datatype='real' name='Engy_Gravimetric_10C_Ff1' ordinal='4' />
+            <column datatype='integer' name='Hc_80_Cap_Cycles' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[pouch_2022-01-10_00-38]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:F13301:no:A1:F13301:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Id]</local-name>
+            <parent-name>[pouch_2022-01-10_00-38]</parent-name>
+            <remote-alias>Id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pouch!2022-01-10!00-38_A50BDE45C46A4BD19C749AB372F3B5D5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Created_By</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Created_By]</local-name>
+            <parent-name>[pouch_2022-01-10_00-38]</parent-name>
+            <remote-alias>Created_By</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pouch!2022-01-10!00-38_A50BDE45C46A4BD19C749AB372F3B5D5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Created_On</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Created_On]</local-name>
+            <parent-name>[pouch_2022-01-10_00-38]</parent-name>
+            <remote-alias>Created_On</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pouch!2022-01-10!00-38_A50BDE45C46A4BD19C749AB372F3B5D5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gen</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Gen]</local-name>
+            <parent-name>[pouch_2022-01-10_00-38]</parent-name>
+            <remote-alias>Gen</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pouch!2022-01-10!00-38_A50BDE45C46A4BD19C749AB372F3B5D5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Engy_Gravimetric_10C_Ff1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Engy_Gravimetric_10C_Ff1]</local-name>
+            <parent-name>[pouch_2022-01-10_00-38]</parent-name>
+            <remote-alias>Engy_Gravimetric_10C_Ff1</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pouch!2022-01-10!00-38_A50BDE45C46A4BD19C749AB372F3B5D5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hc_80_Cap_Cycles</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Hc_80_Cap_Cycles]</local-name>
+            <parent-name>[pouch_2022-01-10_00-38]</parent-name>
+            <remote-alias>Hc_80_Cap_Cycles</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pouch!2022-01-10!00-38_A50BDE45C46A4BD19C749AB372F3B5D5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Created By' datatype='string' name='[Created_By]' role='dimension' type='nominal' />
+      <column caption='Created On' datatype='datetime' name='[Created_On]' role='dimension' type='ordinal' />
+      <column caption='Engy Gravimetric 10C Ff1' datatype='real' name='[Engy_Gravimetric_10C_Ff1]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Gen]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;1&quot;' value='1-Ge' />
+          <alias key='&quot;2CS&quot;' value='2-CSi' />
+          <alias key='&quot;2GR&quot;' value='2-GR' />
+        </aliases>
+      </column>
+      <column caption='Hc 80 Cap Cycles' datatype='integer' name='[Hc_80_Cap_Cycles]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='pouch_2022-01-10_00-38' datatype='table' name='[__tableau_internal_object_id__].[pouch!2022-01-10!00-38_A50BDE45C46A4BD19C749AB372F3B5D5]' role='measure' type='quantitative' />
+      <column-instance column='[Gen]' derivation='None' name='[none:Gen:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Created_On]' derivation='Day-Trunc' name='[tdy:Created_On:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Created_On]' derivation='Week-Trunc' name='[twk:Created_On:qk]' pivot='key' type='quantitative' />
+      <group hidden='true' name='[Exclusions (DAY(Created On),Gen)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[tdy:Created_On:qk]' />
+          <groupfilter function='level-members' level='[none:Gen:nk]' />
+        </groupfilter>
+      </group>
+      <group hidden='true' name='[Exclusions (Gen,WEEK(Created On))]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Gen:nk]' />
+          <groupfilter function='level-members' level='[twk:Created_On:qk]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Gen:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;1&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;2GR&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;2CS&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Israel&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='pouch_2022-01-10_00-38' id='pouch!2022-01-10!00-38_A50BDE45C46A4BD19C749AB372F3B5D5'>
+            <properties context=''>
+              <relation connection='excel-direct.0w3jqy31se3gjq13pxm7u022dup0' name='pouch_2022-01-10_00-38' table='[&apos;pouch_2022-01-10_00-38$&apos;]' type='table'>
+                <columns gridOrigin='A1:F13301:no:A1:F13301:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Id' ordinal='0' />
+                  <column datatype='string' name='Created_By' ordinal='1' />
+                  <column datatype='datetime' name='Created_On' ordinal='2' />
+                  <column datatype='string' name='Gen' ordinal='3' />
+                  <column datatype='real' name='Engy_Gravimetric_10C_Ff1' ordinal='4' />
+                  <column datatype='integer' name='Hc_80_Cap_Cycles' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Cycles &amp; Energy Density Over Time'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Cycles &amp; Energy Density Over Time By Generation Product</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='pouch_2022-01-10_00-38 (gen_pouch_exc)' name='federated.1mg75pr0bf9kjw13ajspo1kfiy6v' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1mg75pr0bf9kjw13ajspo1kfiy6v'>
+            <column caption='Created On' datatype='datetime' name='[Created_On]' role='dimension' type='ordinal' />
+            <column caption='Engy Gravimetric 10C Ff1' datatype='real' name='[Engy_Gravimetric_10C_Ff1]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Gen]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;1&quot;' value='1-Ge' />
+                <alias key='&quot;2CS&quot;' value='2-CSi' />
+                <alias key='&quot;2GR&quot;' value='2-GR' />
+              </aliases>
+            </column>
+            <column caption='Hc 80 Cap Cycles' datatype='integer' name='[Hc_80_Cap_Cycles]' role='measure' type='quantitative' />
+            <column-instance column='[Engy_Gravimetric_10C_Ff1]' derivation='Avg' name='[avg:Engy_Gravimetric_10C_Ff1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Hc_80_Cap_Cycles]' derivation='Avg' name='[avg:Hc_80_Cap_Cycles:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Gen]' derivation='None' name='[none:Gen:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Created_On]' derivation='Day-Trunc' name='[tdy:Created_On:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Created_On]' derivation='Week-Trunc' name='[twk:Created_On:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1mg75pr0bf9kjw13ajspo1kfiy6v].[Exclusions (DAY(Created On),Gen)]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[tdy:Created_On:qk]' />
+                <groupfilter function='level-members' level='[none:Gen:nk]' />
+              </groupfilter>
+              <groupfilter function='reorder-dimensionality'>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:Gen:nk]' member='&quot;1&quot;' />
+                  <groupfilter function='union'>
+                    <groupfilter function='member' level='[tdy:Created_On:qk]' member='#2018-05-27 00:00:00#' />
+                    <groupfilter function='member' level='[tdy:Created_On:qk]' member='#2018-05-28 00:00:00#' />
+                    <groupfilter function='member' level='[tdy:Created_On:qk]' member='#2018-05-29 00:00:00#' />
+                    <groupfilter function='member' level='[tdy:Created_On:qk]' member='#2018-06-21 00:00:00#' />
+                    <groupfilter function='member' level='[tdy:Created_On:qk]' member='#2018-07-10 00:00:00#' />
+                    <groupfilter function='member' level='[tdy:Created_On:qk]' member='#2018-07-19 00:00:00#' />
+                    <groupfilter function='member' level='[tdy:Created_On:qk]' member='#2018-07-29 00:00:00#' />
+                    <groupfilter function='member' level='[tdy:Created_On:qk]' member='#2018-09-02 00:00:00#' />
+                    <groupfilter function='member' level='[tdy:Created_On:qk]' member='#2018-10-29 00:00:00#' />
+                    <groupfilter function='member' level='[tdy:Created_On:qk]' member='#2018-12-17 00:00:00#' />
+                    <groupfilter function='member' level='[tdy:Created_On:qk]' member='#2018-12-18 00:00:00#' />
+                    <groupfilter function='member' level='[tdy:Created_On:qk]' member='#2018-12-26 00:00:00#' />
+                    <groupfilter function='member' level='[tdy:Created_On:qk]' member='#2019-01-01 00:00:00#' />
+                    <groupfilter function='member' level='[tdy:Created_On:qk]' member='#2019-01-02 00:00:00#' />
+                    <groupfilter function='member' level='[tdy:Created_On:qk]' member='#2019-01-06 00:00:00#' />
+                    <groupfilter function='member' level='[tdy:Created_On:qk]' member='#2019-01-15 00:00:00#' />
+                    <groupfilter function='member' level='[tdy:Created_On:qk]' member='#2019-01-17 00:00:00#' />
+                    <groupfilter function='member' level='[tdy:Created_On:qk]' member='#2019-01-22 00:00:00#' />
+                    <groupfilter function='member' level='[tdy:Created_On:qk]' member='#2019-03-05 00:00:00#' />
+                    <groupfilter function='member' level='[tdy:Created_On:qk]' member='#2019-03-06 00:00:00#' />
+                    <groupfilter function='member' level='[tdy:Created_On:qk]' member='#2019-03-10 00:00:00#' />
+                    <groupfilter function='member' level='[tdy:Created_On:qk]' member='#2019-03-13 00:00:00#' />
+                    <groupfilter function='member' level='[tdy:Created_On:qk]' member='#2019-03-17 00:00:00#' />
+                    <groupfilter function='member' level='[tdy:Created_On:qk]' member='#2019-03-27 00:00:00#' />
+                    <groupfilter function='member' level='[tdy:Created_On:qk]' member='#2019-03-31 00:00:00#' />
+                    <groupfilter function='member' level='[tdy:Created_On:qk]' member='#2019-04-07 00:00:00#' />
+                    <groupfilter function='member' level='[tdy:Created_On:qk]' member='#2019-04-08 00:00:00#' />
+                    <groupfilter function='member' level='[tdy:Created_On:qk]' member='#2019-04-21 00:00:00#' />
+                    <groupfilter function='member' level='[tdy:Created_On:qk]' member='#2019-05-02 00:00:00#' />
+                    <groupfilter function='member' level='[tdy:Created_On:qk]' member='#2019-05-13 00:00:00#' />
+                  </groupfilter>
+                </groupfilter>
+                <order>
+                  <hierarchy name='[tdy:Created_On:qk]' />
+                  <hierarchy name='[none:Gen:nk]' />
+                </order>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1mg75pr0bf9kjw13ajspo1kfiy6v].[Exclusions (Gen,WEEK(Created On))]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[none:Gen:nk]' />
+                <groupfilter function='level-members' level='[twk:Created_On:qk]' />
+              </groupfilter>
+              <groupfilter function='union'>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:Gen:nk]' member='&quot;1&quot;' />
+                  <groupfilter function='union'>
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2016-06-19 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2016-07-03 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2016-07-10 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2016-07-17 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2016-07-24 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2016-07-31 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2016-08-07 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2016-08-14 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2016-08-21 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2016-08-28 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2016-09-04 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2016-09-11 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2016-09-18 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2016-09-25 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2016-10-02 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2016-10-09 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2016-10-16 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2016-10-23 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2016-10-30 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2016-11-06 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2016-11-13 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2016-11-20 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2016-11-27 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2016-12-04 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2016-12-11 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2016-12-18 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2016-12-25 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-01-01 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-01-08 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-01-15 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-01-22 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-01-29 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-02-05 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-02-12 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-02-19 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-02-26 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-03-05 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-03-12 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-03-19 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-03-26 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-04-02 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-04-09 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-04-16 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-04-23 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-04-30 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-05-07 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-05-14 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-05-21 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-05-28 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-06-04 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-06-11 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-06-18 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-06-25 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-07-02 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-07-09 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-07-16 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-07-23 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-07-30 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-08-06 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-08-13 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-08-20 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-08-27 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-09-03 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-09-10 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-09-17 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-09-24 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-10-01 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-10-08 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-10-15 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-10-22 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-10-29 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-11-05 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-11-12 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-11-19 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-11-26 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-12-03 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-12-10 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-12-17 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-12-24 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2017-12-31 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2018-01-07 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2018-01-14 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2018-01-21 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2018-01-28 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2018-02-04 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2018-02-11 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2018-02-18 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2018-02-25 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2018-03-04 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2018-03-11 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2018-03-18 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2018-03-25 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2018-04-01 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2018-04-08 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2018-04-15 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2018-04-22 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2018-04-29 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2018-05-06 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2018-05-13 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2018-05-20 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2018-09-16 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2018-11-11 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2019-02-10 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2019-02-17 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2019-05-05 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2019-06-09 00:00:00#' />
+                  </groupfilter>
+                </groupfilter>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:Gen:nk]' member='&quot;2GR&quot;' />
+                  <groupfilter function='union'>
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2021-04-04 00:00:00#' />
+                    <groupfilter function='member' level='[twk:Created_On:qk]' member='#2021-04-11 00:00:00#' />
+                  </groupfilter>
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1mg75pr0bf9kjw13ajspo1kfiy6v].[none:Gen:nk]'>
+            <groupfilter function='level-members' level='[none:Gen:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.1mg75pr0bf9kjw13ajspo1kfiy6v].[none:Gen:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;1&quot;</bucket>
+              <bucket>&quot;2GR&quot;</bucket>
+              <bucket>&quot;2CS&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1mg75pr0bf9kjw13ajspo1kfiy6v].[none:Gen:nk]</column>
+            <column>[federated.1mg75pr0bf9kjw13ajspo1kfiy6v].[Exclusions (Gen,WEEK(Created On))]</column>
+            <column>[federated.1mg75pr0bf9kjw13ajspo1kfiy6v].[Exclusions (DAY(Created On),Gen)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1mg75pr0bf9kjw13ajspo1kfiy6v].[twk:Created_On:qk]' scope='cols' value='Cell Creation Date [Week, Year]' />
+            <format attr='title' class='0' field='[federated.1mg75pr0bf9kjw13ajspo1kfiy6v].[avg:Hc_80_Cap_Cycles:qk]' scope='rows' value='Weekly Average Of Cycles' />
+            <format attr='title' class='0' field='[federated.1mg75pr0bf9kjw13ajspo1kfiy6v].[avg:Engy_Gravimetric_10C_Ff1:qk]' scope='rows' value='Weekly Average Of Energy Density [Wh/kg]' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.1mg75pr0bf9kjw13ajspo1kfiy6v].[none:Gen:nk]' value='Generation'>
+              <formatted-text>
+                <run>Generation</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <encodings>
+              <color column='[federated.1mg75pr0bf9kjw13ajspo1kfiy6v].[none:Gen:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.60000002384185791' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1mg75pr0bf9kjw13ajspo1kfiy6v].[avg:Engy_Gravimetric_10C_Ff1:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <encodings>
+              <color column='[federated.1mg75pr0bf9kjw13ajspo1kfiy6v].[none:Gen:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.60000002384185791' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1mg75pr0bf9kjw13ajspo1kfiy6v].[avg:Hc_80_Cap_Cycles:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <encodings>
+              <color column='[federated.1mg75pr0bf9kjw13ajspo1kfiy6v].[none:Gen:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.60000002384185791' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1mg75pr0bf9kjw13ajspo1kfiy6v].[avg:Engy_Gravimetric_10C_Ff1:qk] + [federated.1mg75pr0bf9kjw13ajspo1kfiy6v].[avg:Hc_80_Cap_Cycles:qk])</rows>
+        <cols>[federated.1mg75pr0bf9kjw13ajspo1kfiy6v].[twk:Created_On:qk]</cols>
+      </table>
+      <simple-id uuid='{E8D59F91-C2F9-45CD-971A-476E5F75C57D}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='Cycles &amp; Energy Density Over Time'>
+      <cards>
+        <edge name='left'>
+          <strip size='142'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1mg75pr0bf9kjw13ajspo1kfiy6v].[none:Gen:nk]' type='filter' />
+            <card pane-specification-id='1' param='[federated.1mg75pr0bf9kjw13ajspo1kfiy6v].[none:Gen:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1mg75pr0bf9kjw13ajspo1kfiy6v].[none:Created_By:nk]</field>
+            <field>[federated.1mg75pr0bf9kjw13ajspo1kfiy6v].[yr:Created_On:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6E21636C-DF0F-415B-AD4A-392FD37FFAA4}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Cycles &amp; Energy Density Over Time' width='192'>
+      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
+      qiqAyu3N/w81/29zu1BJ8AAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>

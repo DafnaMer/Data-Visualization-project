@@ -1,0 +1,2019 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20211.21.0511.0935                               -->
+<workbook source-build='2021.1.2 (20211.21.0511.0935)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (Viz3New)' inline='true' name='federated.15lqtrm0mduwgs12tz76614ugy3z' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Viz3New' name='excel-direct.1qqzss51oeicie1dyry5h09vg4k8'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/dafnam/PycharmProjects/DataViz/Viz_5_scatter_plot_matrix.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1qqzss51oeicie1dyry5h09vg4k8' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:AG1040:no:A1:AG1040:0' header='yes' outcome='2'>
+            <column datatype='string' name='Id' ordinal='0' />
+            <column datatype='string' name='Gen' ordinal='1' />
+            <column datatype='string' name='Experiments' ordinal='2' />
+            <column datatype='string' name='Purpose' ordinal='3' />
+            <column datatype='string' name='Anode_Batch_Id' ordinal='4' />
+            <column datatype='string' name='P_Anode_Batch_Id' ordinal='5' />
+            <column datatype='string' name='P_Cathode_Batch_Id' ordinal='6' />
+            <column datatype='string' name='Cathode_Batch_Id' ordinal='7' />
+            <column datatype='real' name='Ce_003C' ordinal='8' />
+            <column datatype='string' name='Electrolyte_Type' ordinal='9' />
+            <column datatype='real' name='Anode_Load' ordinal='10' />
+            <column datatype='real' name='C_A_Ratio' ordinal='11' />
+            <column datatype='real' name='Ce_01C' ordinal='12' />
+            <column datatype='real' name='Cathode_Load' ordinal='13' />
+            <column datatype='real' name='Cap_Last_Dchg_01Cp' ordinal='14' />
+            <column datatype='real' name='Average_Voltage_01Cp' ordinal='15' />
+            <column datatype='real' name='Engy_Gravimetric_01Cp_Ff1' ordinal='16' />
+            <column datatype='real' name='C_Rate3_Ce_Avg' ordinal='17' />
+            <column datatype='real' name='C_Rate3_Cc_Ratio_Time_Avg' ordinal='18' />
+            <column datatype='real' name='C_Rate3_Cc_Ratio_Cap_Avg' ordinal='19' />
+            <column datatype='real' name='C_Rate3_Average_Voltage' ordinal='20' />
+            <column datatype='real' name='C_Rate3_Engy_Grav_Ff1' ordinal='21' />
+            <column datatype='real' name='Hc_Cc_Ratio_Init' ordinal='22' />
+            <column datatype='real' name='Hc_Cc_Ratio_Avg' ordinal='23' />
+            <column datatype='real' name='Hc_Cc_Ratio_Drop' ordinal='24' />
+            <column datatype='real' name='Hc_Max_Voltage_1St' ordinal='25' />
+            <column datatype='real' name='Hc_Max_Voltage' ordinal='26' />
+            <column datatype='real' name='Hc_Min_Voltage_Diff' ordinal='27' />
+            <column datatype='real' name='Hc_Max_Voltage_Diff' ordinal='28' />
+            <column datatype='integer' name='Hc_80_Cap_Cycles' ordinal='29' />
+            <column datatype='string' name='State_In_Experiments' ordinal='30' />
+            <column datatype='string' name='Owned_By' ordinal='31' />
+            <column datatype='datetime' name='Created_On' ordinal='32' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1qqzss51oeicie1dyry5h09vg4k8' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:AG1040:no:A1:AG1040:0' header='yes' outcome='2'>
+            <column datatype='string' name='Id' ordinal='0' />
+            <column datatype='string' name='Gen' ordinal='1' />
+            <column datatype='string' name='Experiments' ordinal='2' />
+            <column datatype='string' name='Purpose' ordinal='3' />
+            <column datatype='string' name='Anode_Batch_Id' ordinal='4' />
+            <column datatype='string' name='P_Anode_Batch_Id' ordinal='5' />
+            <column datatype='string' name='P_Cathode_Batch_Id' ordinal='6' />
+            <column datatype='string' name='Cathode_Batch_Id' ordinal='7' />
+            <column datatype='real' name='Ce_003C' ordinal='8' />
+            <column datatype='string' name='Electrolyte_Type' ordinal='9' />
+            <column datatype='real' name='Anode_Load' ordinal='10' />
+            <column datatype='real' name='C_A_Ratio' ordinal='11' />
+            <column datatype='real' name='Ce_01C' ordinal='12' />
+            <column datatype='real' name='Cathode_Load' ordinal='13' />
+            <column datatype='real' name='Cap_Last_Dchg_01Cp' ordinal='14' />
+            <column datatype='real' name='Average_Voltage_01Cp' ordinal='15' />
+            <column datatype='real' name='Engy_Gravimetric_01Cp_Ff1' ordinal='16' />
+            <column datatype='real' name='C_Rate3_Ce_Avg' ordinal='17' />
+            <column datatype='real' name='C_Rate3_Cc_Ratio_Time_Avg' ordinal='18' />
+            <column datatype='real' name='C_Rate3_Cc_Ratio_Cap_Avg' ordinal='19' />
+            <column datatype='real' name='C_Rate3_Average_Voltage' ordinal='20' />
+            <column datatype='real' name='C_Rate3_Engy_Grav_Ff1' ordinal='21' />
+            <column datatype='real' name='Hc_Cc_Ratio_Init' ordinal='22' />
+            <column datatype='real' name='Hc_Cc_Ratio_Avg' ordinal='23' />
+            <column datatype='real' name='Hc_Cc_Ratio_Drop' ordinal='24' />
+            <column datatype='real' name='Hc_Max_Voltage_1St' ordinal='25' />
+            <column datatype='real' name='Hc_Max_Voltage' ordinal='26' />
+            <column datatype='real' name='Hc_Min_Voltage_Diff' ordinal='27' />
+            <column datatype='real' name='Hc_Max_Voltage_Diff' ordinal='28' />
+            <column datatype='integer' name='Hc_80_Cap_Cycles' ordinal='29' />
+            <column datatype='string' name='State_In_Experiments' ordinal='30' />
+            <column datatype='string' name='Owned_By' ordinal='31' />
+            <column datatype='datetime' name='Created_On' ordinal='32' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AG1040:no:A1:AG1040:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Id]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gen</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Gen]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Gen</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Experiments</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Experiments]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Experiments</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Purpose</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Purpose]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Purpose</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Anode_Batch_Id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Anode_Batch_Id]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Anode_Batch_Id</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>P_Anode_Batch_Id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[P_Anode_Batch_Id]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>P_Anode_Batch_Id</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>P_Cathode_Batch_Id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[P_Cathode_Batch_Id]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>P_Cathode_Batch_Id</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cathode_Batch_Id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Cathode_Batch_Id]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Cathode_Batch_Id</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ce_003C</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Ce_003C]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Ce_003C</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electrolyte_Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Electrolyte_Type]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Electrolyte_Type</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Anode_Load</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Anode_Load]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Anode_Load</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>C_A_Ratio</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[C_A_Ratio]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>C_A_Ratio</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ce_01C</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Ce_01C]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Ce_01C</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cathode_Load</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cathode_Load]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Cathode_Load</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cap_Last_Dchg_01Cp</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cap_Last_Dchg_01Cp]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Cap_Last_Dchg_01Cp</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average_Voltage_01Cp</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average_Voltage_01Cp]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Average_Voltage_01Cp</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Engy_Gravimetric_01Cp_Ff1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Engy_Gravimetric_01Cp_Ff1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Engy_Gravimetric_01Cp_Ff1</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>C_Rate3_Ce_Avg</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[C_Rate3_Ce_Avg]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>C_Rate3_Ce_Avg</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>C_Rate3_Cc_Ratio_Time_Avg</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[C_Rate3_Cc_Ratio_Time_Avg]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>C_Rate3_Cc_Ratio_Time_Avg</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>C_Rate3_Cc_Ratio_Cap_Avg</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[C_Rate3_Cc_Ratio_Cap_Avg]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>C_Rate3_Cc_Ratio_Cap_Avg</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>C_Rate3_Average_Voltage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[C_Rate3_Average_Voltage]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>C_Rate3_Average_Voltage</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>C_Rate3_Engy_Grav_Ff1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[C_Rate3_Engy_Grav_Ff1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>C_Rate3_Engy_Grav_Ff1</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hc_Cc_Ratio_Init</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Hc_Cc_Ratio_Init]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Hc_Cc_Ratio_Init</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hc_Cc_Ratio_Avg</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Hc_Cc_Ratio_Avg]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Hc_Cc_Ratio_Avg</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hc_Cc_Ratio_Drop</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Hc_Cc_Ratio_Drop]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Hc_Cc_Ratio_Drop</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hc_Max_Voltage_1St</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Hc_Max_Voltage_1St]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Hc_Max_Voltage_1St</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hc_Max_Voltage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Hc_Max_Voltage]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Hc_Max_Voltage</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hc_Min_Voltage_Diff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Hc_Min_Voltage_Diff]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Hc_Min_Voltage_Diff</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hc_Max_Voltage_Diff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Hc_Max_Voltage_Diff]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Hc_Max_Voltage_Diff</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hc_80_Cap_Cycles</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Hc_80_Cap_Cycles]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Hc_80_Cap_Cycles</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State_In_Experiments</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State_In_Experiments]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>State_In_Experiments</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Owned_By</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Owned_By]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Owned_By</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Created_On</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Created_On]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Created_On</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Anode Batch Id' datatype='string' name='[Anode_Batch_Id]' role='dimension' type='nominal' />
+      <column caption='Anode Load' datatype='real' name='[Anode_Load]' role='measure' type='quantitative' />
+      <column caption='Average Voltage 01Cp' datatype='real' name='[Average_Voltage_01Cp]' role='measure' type='quantitative' />
+      <column caption='C A Ratio' datatype='real' name='[C_A_Ratio]' role='measure' type='quantitative' />
+      <column caption='C Rate3 Average Voltage' datatype='real' name='[C_Rate3_Average_Voltage]' role='measure' type='quantitative' />
+      <column caption='C Rate3 Cc Ratio Cap Avg' datatype='real' name='[C_Rate3_Cc_Ratio_Cap_Avg]' role='measure' type='quantitative' />
+      <column caption='C Rate3 Cc Ratio Time Avg' datatype='real' name='[C_Rate3_Cc_Ratio_Time_Avg]' role='measure' type='quantitative' />
+      <column caption='C Rate3 Ce Avg' datatype='real' name='[C_Rate3_Ce_Avg]' role='measure' type='quantitative' />
+      <column caption='C Rate3 Engy Grav Ff1' datatype='real' name='[C_Rate3_Engy_Grav_Ff1]' role='measure' type='quantitative' />
+      <column caption='Cap Last Dchg 01Cp' datatype='real' name='[Cap_Last_Dchg_01Cp]' role='measure' type='quantitative' />
+      <column caption='Cathode Batch Id' datatype='string' name='[Cathode_Batch_Id]' role='dimension' type='nominal' />
+      <column caption='Cathode Load' datatype='real' name='[Cathode_Load]' role='measure' type='quantitative' />
+      <column caption='Ce 003C' datatype='real' name='[Ce_003C]' role='measure' type='quantitative' />
+      <column caption='Ce 01C' datatype='real' name='[Ce_01C]' role='measure' type='quantitative' />
+      <column caption='Created On' datatype='datetime' name='[Created_On]' role='dimension' type='ordinal' />
+      <column caption='Electrolyte Type' datatype='string' name='[Electrolyte_Type]' role='dimension' type='nominal' />
+      <column caption='Engy Gravimetric 01Cp Ff1' datatype='real' name='[Engy_Gravimetric_01Cp_Ff1]' role='measure' type='quantitative' />
+      <column caption='Hc 80 Cap Cycles' datatype='integer' name='[Hc_80_Cap_Cycles]' role='measure' type='quantitative' />
+      <column caption='Hc Cc Ratio Avg' datatype='real' name='[Hc_Cc_Ratio_Avg]' role='measure' type='quantitative' />
+      <column caption='Hc Cc Ratio Drop' datatype='real' name='[Hc_Cc_Ratio_Drop]' role='measure' type='quantitative' />
+      <column caption='Hc Cc Ratio Init' datatype='real' name='[Hc_Cc_Ratio_Init]' role='measure' type='quantitative' />
+      <column caption='Hc Max Voltage' datatype='real' name='[Hc_Max_Voltage]' role='measure' type='quantitative' />
+      <column caption='Hc Max Voltage 1St' datatype='real' name='[Hc_Max_Voltage_1St]' role='measure' type='quantitative' />
+      <column caption='Hc Max Voltage Diff' datatype='real' name='[Hc_Max_Voltage_Diff]' role='measure' type='quantitative' />
+      <column caption='Hc Min Voltage Diff' datatype='real' name='[Hc_Min_Voltage_Diff]' role='measure' type='quantitative' />
+      <column caption='Owned By' datatype='string' name='[Owned_By]' role='dimension' type='nominal' />
+      <column caption='P Anode Batch Id' datatype='string' name='[P_Anode_Batch_Id]' role='dimension' type='nominal' />
+      <column caption='P Cathode Batch Id' datatype='string' name='[P_Cathode_Batch_Id]' role='dimension' type='nominal' />
+      <column caption='State In Experiments' datatype='string' name='[State_In_Experiments]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26]' role='measure' type='quantitative' />
+      <column-instance column='[Anode_Batch_Id]' derivation='None' name='[none:Anode_Batch_Id:nk]' pivot='key' type='nominal' />
+      <column-instance column='[C_Rate3_Average_Voltage]' derivation='None' name='[none:C_Rate3_Average_Voltage:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[C_Rate3_Cc_Ratio_Time_Avg]' derivation='None' name='[none:C_Rate3_Cc_Ratio_Time_Avg:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[C_Rate3_Ce_Avg]' derivation='None' name='[none:C_Rate3_Ce_Avg:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[C_Rate3_Engy_Grav_Ff1]' derivation='None' name='[none:C_Rate3_Engy_Grav_Ff1:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Cathode_Batch_Id]' derivation='None' name='[none:Cathode_Batch_Id:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Electrolyte_Type]' derivation='None' name='[none:Electrolyte_Type:nk]' pivot='key' type='nominal' />
+      <group hidden='true' name='[Exclusions (Anode Batch Id,C Rate3 Average Voltage,C Rate3 Engy Grav Ff1,Cathode Batch Id,Electrolyte Type)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Anode_Batch_Id:nk]' />
+          <groupfilter function='level-members' level='[none:C_Rate3_Average_Voltage:qk]' />
+          <groupfilter function='level-members' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' />
+          <groupfilter function='level-members' level='[none:Cathode_Batch_Id:nk]' />
+          <groupfilter function='level-members' level='[none:Electrolyte_Type:nk]' />
+        </groupfilter>
+      </group>
+      <group hidden='true' name='[Exclusions (Anode Batch Id,C Rate3 Cc Ratio Time Avg,C Rate3 Engy Grav Ff1,Cathode Batch Id,Electrolyte Type)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Anode_Batch_Id:nk]' />
+          <groupfilter function='level-members' level='[none:C_Rate3_Cc_Ratio_Time_Avg:qk]' />
+          <groupfilter function='level-members' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' />
+          <groupfilter function='level-members' level='[none:Cathode_Batch_Id:nk]' />
+          <groupfilter function='level-members' level='[none:Electrolyte_Type:nk]' />
+        </groupfilter>
+      </group>
+      <group hidden='true' name='[Exclusions (Anode Batch Id,C Rate3 Ce Avg,C Rate3 Engy Grav Ff1,Cathode Batch Id,Electrolyte Type)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Anode_Batch_Id:nk]' />
+          <groupfilter function='level-members' level='[none:C_Rate3_Ce_Avg:qk]' />
+          <groupfilter function='level-members' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' />
+          <groupfilter function='level-members' level='[none:Cathode_Batch_Id:nk]' />
+          <groupfilter function='level-members' level='[none:Electrolyte_Type:nk]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Electrolyte_Type:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;EL1951&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;EL1976&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;EL1659&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;EL1966&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;EL1939&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;EL1972&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;EL1956&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;EL1986&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;EL1952&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;EL1977&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;EL1942&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;EL1973&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;EL1962&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;EL1679&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;EL1967&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;EL1960&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;EL1943&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;EL1974&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;EL1957&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;EL1958&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;EL1961&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;EL1963&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;EL1954&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;EL1978&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;EL1950&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;EL1975&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;EL1681&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;EL1969&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;EL1959&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;EL1955&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;EL1979&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;EL1938&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;EL1971&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Cathode_Batch_Id:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;--&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;PC-290&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;PC-281&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;PC-307&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;PC-297&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;PC-247&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;PC-294&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;PC-246&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;PC-302&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='shape' field='[none:Anode_Batch_Id:nk]' palette=':default' type='shape'>
+            <map to='asterisk'>
+              <bucket>&quot;A2431&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;A2293&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;A2456&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;A2380&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;A2349&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;A2393&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;A2471&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Israel&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_19C1CF4876ED4EAD923FF3F717C2EF26'>
+            <properties context=''>
+              <relation connection='excel-direct.1qqzss51oeicie1dyry5h09vg4k8' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:AG1040:no:A1:AG1040:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Id' ordinal='0' />
+                  <column datatype='string' name='Gen' ordinal='1' />
+                  <column datatype='string' name='Experiments' ordinal='2' />
+                  <column datatype='string' name='Purpose' ordinal='3' />
+                  <column datatype='string' name='Anode_Batch_Id' ordinal='4' />
+                  <column datatype='string' name='P_Anode_Batch_Id' ordinal='5' />
+                  <column datatype='string' name='P_Cathode_Batch_Id' ordinal='6' />
+                  <column datatype='string' name='Cathode_Batch_Id' ordinal='7' />
+                  <column datatype='real' name='Ce_003C' ordinal='8' />
+                  <column datatype='string' name='Electrolyte_Type' ordinal='9' />
+                  <column datatype='real' name='Anode_Load' ordinal='10' />
+                  <column datatype='real' name='C_A_Ratio' ordinal='11' />
+                  <column datatype='real' name='Ce_01C' ordinal='12' />
+                  <column datatype='real' name='Cathode_Load' ordinal='13' />
+                  <column datatype='real' name='Cap_Last_Dchg_01Cp' ordinal='14' />
+                  <column datatype='real' name='Average_Voltage_01Cp' ordinal='15' />
+                  <column datatype='real' name='Engy_Gravimetric_01Cp_Ff1' ordinal='16' />
+                  <column datatype='real' name='C_Rate3_Ce_Avg' ordinal='17' />
+                  <column datatype='real' name='C_Rate3_Cc_Ratio_Time_Avg' ordinal='18' />
+                  <column datatype='real' name='C_Rate3_Cc_Ratio_Cap_Avg' ordinal='19' />
+                  <column datatype='real' name='C_Rate3_Average_Voltage' ordinal='20' />
+                  <column datatype='real' name='C_Rate3_Engy_Grav_Ff1' ordinal='21' />
+                  <column datatype='real' name='Hc_Cc_Ratio_Init' ordinal='22' />
+                  <column datatype='real' name='Hc_Cc_Ratio_Avg' ordinal='23' />
+                  <column datatype='real' name='Hc_Cc_Ratio_Drop' ordinal='24' />
+                  <column datatype='real' name='Hc_Max_Voltage_1St' ordinal='25' />
+                  <column datatype='real' name='Hc_Max_Voltage' ordinal='26' />
+                  <column datatype='real' name='Hc_Min_Voltage_Diff' ordinal='27' />
+                  <column datatype='real' name='Hc_Max_Voltage_Diff' ordinal='28' />
+                  <column datatype='integer' name='Hc_80_Cap_Cycles' ordinal='29' />
+                  <column datatype='string' name='State_In_Experiments' ordinal='30' />
+                  <column datatype='string' name='Owned_By' ordinal='31' />
+                  <column datatype='datetime' name='Created_On' ordinal='32' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Highlight 2 (generated)' name='[Action2_1EB302133A904314969B9B8B238DA0CD]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='ED_by_CC2' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Anode Batch Id,Cathode Batch Id' />
+        <param name='target' value='ED_by_CC2' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='ED_by_CC2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Energy Density Correlations&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Viz3New)' name='federated.15lqtrm0mduwgs12tz76614ugy3z' />
+          </datasources>
+          <datasource-dependencies datasource='federated.15lqtrm0mduwgs12tz76614ugy3z'>
+            <column caption='Anode Batch Id' datatype='string' name='[Anode_Batch_Id]' role='dimension' type='nominal' />
+            <column caption='C Rate3 Average Voltage' datatype='real' name='[C_Rate3_Average_Voltage]' role='measure' type='quantitative' />
+            <column caption='C Rate3 Cc Ratio Time Avg' datatype='real' name='[C_Rate3_Cc_Ratio_Time_Avg]' role='measure' type='quantitative' />
+            <column caption='C Rate3 Ce Avg' datatype='real' name='[C_Rate3_Ce_Avg]' role='measure' type='quantitative' />
+            <column caption='C Rate3 Engy Grav Ff1' datatype='real' name='[C_Rate3_Engy_Grav_Ff1]' role='measure' type='quantitative' />
+            <column caption='Cathode Batch Id' datatype='string' name='[Cathode_Batch_Id]' role='dimension' type='nominal' />
+            <column caption='Electrolyte Type' datatype='string' name='[Electrolyte_Type]' role='dimension' type='nominal' />
+            <column-instance column='[Electrolyte_Type]' derivation='Attribute' name='[attr:Electrolyte_Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Anode_Batch_Id]' derivation='None' name='[none:Anode_Batch_Id:nk]' pivot='key' type='nominal' />
+            <column-instance column='[C_Rate3_Average_Voltage]' derivation='None' name='[none:C_Rate3_Average_Voltage:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[C_Rate3_Cc_Ratio_Time_Avg]' derivation='None' name='[none:C_Rate3_Cc_Ratio_Time_Avg:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[C_Rate3_Ce_Avg]' derivation='None' name='[none:C_Rate3_Ce_Avg:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[C_Rate3_Engy_Grav_Ff1]' derivation='None' name='[none:C_Rate3_Engy_Grav_Ff1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Cathode_Batch_Id]' derivation='None' name='[none:Cathode_Batch_Id:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Electrolyte_Type]' derivation='None' name='[none:Electrolyte_Type:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.15lqtrm0mduwgs12tz76614ugy3z].[Exclusions (Anode Batch Id,C Rate3 Average Voltage,C Rate3 Engy Grav Ff1,Cathode Batch Id,Electrolyte Type)]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[none:Anode_Batch_Id:nk]' />
+                <groupfilter function='level-members' level='[none:C_Rate3_Average_Voltage:qk]' />
+                <groupfilter function='level-members' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' />
+                <groupfilter function='level-members' level='[none:Cathode_Batch_Id:nk]' />
+                <groupfilter function='level-members' level='[none:Electrolyte_Type:nk]' />
+              </groupfilter>
+              <groupfilter function='reorder-dimensionality'>
+                <groupfilter function='union'>
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='member' level='[none:Cathode_Batch_Id:nk]' member='&quot;PC-281&quot;' />
+                    <groupfilter function='union'>
+                      <groupfilter function='crossjoin'>
+                        <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1939&quot;' />
+                        <groupfilter function='union'>
+                          <groupfilter function='crossjoin'>
+                            <groupfilter function='member' level='[none:Anode_Batch_Id:nk]' member='&quot;A2393&quot;' />
+                            <groupfilter function='union'>
+                              <groupfilter function='crossjoin'>
+                                <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='229.78' />
+                                <groupfilter function='member' level='[none:C_Rate3_Average_Voltage:qk]' member='3.1869999999999998' />
+                              </groupfilter>
+                              <groupfilter function='crossjoin'>
+                                <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='231.55000000000001' />
+                                <groupfilter function='member' level='[none:C_Rate3_Average_Voltage:qk]' member='3.1890000000000001' />
+                              </groupfilter>
+                              <groupfilter function='crossjoin'>
+                                <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='234.47999999999999' />
+                                <groupfilter function='member' level='[none:C_Rate3_Average_Voltage:qk]' member='3.198' />
+                              </groupfilter>
+                              <groupfilter function='crossjoin'>
+                                <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='235.83000000000001' />
+                                <groupfilter function='member' level='[none:C_Rate3_Average_Voltage:qk]' member='3.1960000000000002' />
+                              </groupfilter>
+                            </groupfilter>
+                          </groupfilter>
+                          <groupfilter function='crossjoin'>
+                            <groupfilter function='member' level='[none:Anode_Batch_Id:nk]' member='&quot;A2431&quot;' />
+                            <groupfilter function='union'>
+                              <groupfilter function='crossjoin'>
+                                <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='235.34999999999999' />
+                                <groupfilter function='member' level='[none:C_Rate3_Average_Voltage:qk]' member='3.1949999999999998' />
+                              </groupfilter>
+                              <groupfilter function='crossjoin'>
+                                <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='239.12' />
+                                <groupfilter function='member' level='[none:C_Rate3_Average_Voltage:qk]' member='3.1909999999999998' />
+                              </groupfilter>
+                              <groupfilter function='crossjoin'>
+                                <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='240.99000000000001' />
+                                <groupfilter function='member' level='[none:C_Rate3_Average_Voltage:qk]' member='3.1899999999999999' />
+                              </groupfilter>
+                              <groupfilter function='crossjoin'>
+                                <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='241.34999999999999' />
+                                <groupfilter function='member' level='[none:C_Rate3_Average_Voltage:qk]' member='3.1989999999999998' />
+                              </groupfilter>
+                            </groupfilter>
+                          </groupfilter>
+                        </groupfilter>
+                      </groupfilter>
+                      <groupfilter function='crossjoin'>
+                        <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1973&quot;' />
+                        <groupfilter function='crossjoin'>
+                          <groupfilter function='member' level='[none:Anode_Batch_Id:nk]' member='&quot;A2431&quot;' />
+                          <groupfilter function='crossjoin'>
+                            <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='220.37' />
+                            <groupfilter function='member' level='[none:C_Rate3_Average_Voltage:qk]' member='3.1619999999999999' />
+                          </groupfilter>
+                        </groupfilter>
+                      </groupfilter>
+                      <groupfilter function='crossjoin'>
+                        <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1978&quot;' />
+                        <groupfilter function='crossjoin'>
+                          <groupfilter function='member' level='[none:Anode_Batch_Id:nk]' member='&quot;A2431&quot;' />
+                          <groupfilter function='crossjoin'>
+                            <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='233.81999999999999' />
+                            <groupfilter function='member' level='[none:C_Rate3_Average_Voltage:qk]' member='3.1859999999999999' />
+                          </groupfilter>
+                        </groupfilter>
+                      </groupfilter>
+                    </groupfilter>
+                  </groupfilter>
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='member' level='[none:Cathode_Batch_Id:nk]' member='&quot;PC-302&quot;' />
+                    <groupfilter function='crossjoin'>
+                      <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1939&quot;' />
+                      <groupfilter function='crossjoin'>
+                        <groupfilter function='member' level='[none:Anode_Batch_Id:nk]' member='&quot;A2456&quot;' />
+                        <groupfilter function='crossjoin'>
+                          <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='221.75' />
+                          <groupfilter function='member' level='[none:C_Rate3_Average_Voltage:qk]' member='3.165' />
+                        </groupfilter>
+                      </groupfilter>
+                    </groupfilter>
+                  </groupfilter>
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='member' level='[none:Cathode_Batch_Id:nk]' member='&quot;PC-307&quot;' />
+                    <groupfilter function='crossjoin'>
+                      <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1939&quot;' />
+                      <groupfilter function='union'>
+                        <groupfilter function='crossjoin'>
+                          <groupfilter function='member' level='[none:Anode_Batch_Id:nk]' member='&quot;A2456&quot;' />
+                          <groupfilter function='union'>
+                            <groupfilter function='crossjoin'>
+                              <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='224.47' />
+                              <groupfilter function='member' level='[none:C_Rate3_Average_Voltage:qk]' member='3.1549999999999998' />
+                            </groupfilter>
+                            <groupfilter function='crossjoin'>
+                              <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='230.27000000000001' />
+                              <groupfilter function='member' level='[none:C_Rate3_Average_Voltage:qk]' member='3.1749999999999998' />
+                            </groupfilter>
+                            <groupfilter function='crossjoin'>
+                              <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='233.69' />
+                              <groupfilter function='member' level='[none:C_Rate3_Average_Voltage:qk]' member='3.1829999999999998' />
+                            </groupfilter>
+                            <groupfilter function='crossjoin'>
+                              <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='238.09' />
+                              <groupfilter function='member' level='[none:C_Rate3_Average_Voltage:qk]' member='3.1789999999999998' />
+                            </groupfilter>
+                          </groupfilter>
+                        </groupfilter>
+                        <groupfilter function='crossjoin'>
+                          <groupfilter function='member' level='[none:Anode_Batch_Id:nk]' member='&quot;A2471&quot;' />
+                          <groupfilter function='union'>
+                            <groupfilter function='crossjoin'>
+                              <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='235.83000000000001' />
+                              <groupfilter function='member' level='[none:C_Rate3_Average_Voltage:qk]' member='3.1840000000000002' />
+                            </groupfilter>
+                            <groupfilter function='crossjoin'>
+                              <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='238.31' />
+                              <groupfilter function='member' level='[none:C_Rate3_Average_Voltage:qk]' member='3.173' />
+                            </groupfilter>
+                          </groupfilter>
+                        </groupfilter>
+                      </groupfilter>
+                    </groupfilter>
+                  </groupfilter>
+                </groupfilter>
+                <order>
+                  <hierarchy name='[none:Anode_Batch_Id:nk]' />
+                  <hierarchy name='[none:C_Rate3_Average_Voltage:qk]' />
+                  <hierarchy name='[none:C_Rate3_Engy_Grav_Ff1:qk]' />
+                  <hierarchy name='[none:Cathode_Batch_Id:nk]' />
+                  <hierarchy name='[none:Electrolyte_Type:nk]' />
+                </order>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.15lqtrm0mduwgs12tz76614ugy3z].[Exclusions (Anode Batch Id,C Rate3 Cc Ratio Time Avg,C Rate3 Engy Grav Ff1,Cathode Batch Id,Electrolyte Type)]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[none:Anode_Batch_Id:nk]' />
+                <groupfilter function='level-members' level='[none:C_Rate3_Cc_Ratio_Time_Avg:qk]' />
+                <groupfilter function='level-members' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' />
+                <groupfilter function='level-members' level='[none:Cathode_Batch_Id:nk]' />
+                <groupfilter function='level-members' level='[none:Electrolyte_Type:nk]' />
+              </groupfilter>
+              <groupfilter function='reorder-dimensionality'>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1939&quot;' />
+                  <groupfilter function='union'>
+                    <groupfilter function='crossjoin'>
+                      <groupfilter function='member' level='[none:Anode_Batch_Id:nk]' member='&quot;A2293&quot;' />
+                      <groupfilter function='crossjoin'>
+                        <groupfilter function='member' level='[none:Cathode_Batch_Id:nk]' member='&quot;--&quot;' />
+                        <groupfilter function='union'>
+                          <groupfilter function='crossjoin'>
+                            <groupfilter function='member' level='[none:C_Rate3_Cc_Ratio_Time_Avg:qk]' member='31.41' />
+                            <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='134.59999999999999' />
+                          </groupfilter>
+                          <groupfilter function='crossjoin'>
+                            <groupfilter function='member' level='[none:C_Rate3_Cc_Ratio_Time_Avg:qk]' member='41.670000000000002' />
+                            <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='141.13999999999999' />
+                          </groupfilter>
+                          <groupfilter function='crossjoin'>
+                            <groupfilter function='member' level='[none:C_Rate3_Cc_Ratio_Time_Avg:qk]' member='53.409999999999997' />
+                            <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='170.34999999999999' />
+                          </groupfilter>
+                          <groupfilter function='crossjoin'>
+                            <groupfilter function='member' level='[none:C_Rate3_Cc_Ratio_Time_Avg:qk]' member='60.850000000000001' />
+                            <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='166.90000000000001' />
+                          </groupfilter>
+                        </groupfilter>
+                      </groupfilter>
+                    </groupfilter>
+                    <groupfilter function='crossjoin'>
+                      <groupfilter function='member' level='[none:Anode_Batch_Id:nk]' member='&quot;A2431&quot;' />
+                      <groupfilter function='union'>
+                        <groupfilter function='crossjoin'>
+                          <groupfilter function='member' level='[none:Cathode_Batch_Id:nk]' member='&quot;PC-281&quot;' />
+                          <groupfilter function='union'>
+                            <groupfilter function='crossjoin'>
+                              <groupfilter function='member' level='[none:C_Rate3_Cc_Ratio_Time_Avg:qk]' member='62.369999999999997' />
+                              <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='196.71000000000001' />
+                            </groupfilter>
+                            <groupfilter function='crossjoin'>
+                              <groupfilter function='member' level='[none:C_Rate3_Cc_Ratio_Time_Avg:qk]' member='64.519999999999996' />
+                              <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='200.44' />
+                            </groupfilter>
+                            <groupfilter function='crossjoin'>
+                              <groupfilter function='member' level='[none:C_Rate3_Cc_Ratio_Time_Avg:qk]' member='64.629999999999995' />
+                              <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='203.09' />
+                            </groupfilter>
+                            <groupfilter function='crossjoin'>
+                              <groupfilter function='member' level='[none:C_Rate3_Cc_Ratio_Time_Avg:qk]' member='64.780000000000001' />
+                              <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='200.40000000000001' />
+                            </groupfilter>
+                            <groupfilter function='crossjoin'>
+                              <groupfilter function='member' level='[none:C_Rate3_Cc_Ratio_Time_Avg:qk]' member='65.329999999999998' />
+                              <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='201.31999999999999' />
+                            </groupfilter>
+                          </groupfilter>
+                        </groupfilter>
+                        <groupfilter function='crossjoin'>
+                          <groupfilter function='member' level='[none:Cathode_Batch_Id:nk]' member='&quot;PC-297&quot;' />
+                          <groupfilter function='crossjoin'>
+                            <groupfilter function='member' level='[none:C_Rate3_Cc_Ratio_Time_Avg:qk]' member='56.219999999999999' />
+                            <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='190.31999999999999' />
+                          </groupfilter>
+                        </groupfilter>
+                      </groupfilter>
+                    </groupfilter>
+                  </groupfilter>
+                </groupfilter>
+                <order>
+                  <hierarchy name='[none:Anode_Batch_Id:nk]' />
+                  <hierarchy name='[none:C_Rate3_Cc_Ratio_Time_Avg:qk]' />
+                  <hierarchy name='[none:C_Rate3_Engy_Grav_Ff1:qk]' />
+                  <hierarchy name='[none:Cathode_Batch_Id:nk]' />
+                  <hierarchy name='[none:Electrolyte_Type:nk]' />
+                </order>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.15lqtrm0mduwgs12tz76614ugy3z].[Exclusions (Anode Batch Id,C Rate3 Ce Avg,C Rate3 Engy Grav Ff1,Cathode Batch Id,Electrolyte Type)]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[none:Anode_Batch_Id:nk]' />
+                <groupfilter function='level-members' level='[none:C_Rate3_Ce_Avg:qk]' />
+                <groupfilter function='level-members' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' />
+                <groupfilter function='level-members' level='[none:Cathode_Batch_Id:nk]' />
+                <groupfilter function='level-members' level='[none:Electrolyte_Type:nk]' />
+              </groupfilter>
+              <groupfilter function='reorder-dimensionality'>
+                <groupfilter function='union'>
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1939&quot;' />
+                    <groupfilter function='union'>
+                      <groupfilter function='crossjoin'>
+                        <groupfilter function='member' level='[none:Anode_Batch_Id:nk]' member='&quot;A2393&quot;' />
+                        <groupfilter function='crossjoin'>
+                          <groupfilter function='member' level='[none:Cathode_Batch_Id:nk]' member='&quot;--&quot;' />
+                          <groupfilter function='crossjoin'>
+                            <groupfilter function='member' level='[none:C_Rate3_Ce_Avg:qk]' member='94.540000000000006' />
+                            <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='235.91' />
+                          </groupfilter>
+                        </groupfilter>
+                      </groupfilter>
+                      <groupfilter function='crossjoin'>
+                        <groupfilter function='member' level='[none:Anode_Batch_Id:nk]' member='&quot;A2456&quot;' />
+                        <groupfilter function='union'>
+                          <groupfilter function='crossjoin'>
+                            <groupfilter function='member' level='[none:Cathode_Batch_Id:nk]' member='&quot;--&quot;' />
+                            <groupfilter function='crossjoin'>
+                              <groupfilter function='member' level='[none:C_Rate3_Ce_Avg:qk]' member='94.540000000000006' />
+                              <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='233.49000000000001' />
+                            </groupfilter>
+                          </groupfilter>
+                          <groupfilter function='crossjoin'>
+                            <groupfilter function='member' level='[none:Cathode_Batch_Id:nk]' member='&quot;PC-307&quot;' />
+                            <groupfilter function='crossjoin'>
+                              <groupfilter function='member' level='[none:C_Rate3_Ce_Avg:qk]' member='94.129999999999995' />
+                              <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='233.81' />
+                            </groupfilter>
+                          </groupfilter>
+                        </groupfilter>
+                      </groupfilter>
+                    </groupfilter>
+                  </groupfilter>
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1955&quot;' />
+                    <groupfilter function='crossjoin'>
+                      <groupfilter function='member' level='[none:Anode_Batch_Id:nk]' member='&quot;A2471&quot;' />
+                      <groupfilter function='union'>
+                        <groupfilter function='crossjoin'>
+                          <groupfilter function='member' level='[none:Cathode_Batch_Id:nk]' member='&quot;PC-302&quot;' />
+                          <groupfilter function='crossjoin'>
+                            <groupfilter function='member' level='[none:C_Rate3_Ce_Avg:qk]' member='94.140000000000001' />
+                            <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='223.61000000000001' />
+                          </groupfilter>
+                        </groupfilter>
+                        <groupfilter function='crossjoin'>
+                          <groupfilter function='member' level='[none:Cathode_Batch_Id:nk]' member='&quot;PC-307&quot;' />
+                          <groupfilter function='crossjoin'>
+                            <groupfilter function='member' level='[none:C_Rate3_Ce_Avg:qk]' member='94.349999999999994' />
+                            <groupfilter function='member' level='[none:C_Rate3_Engy_Grav_Ff1:qk]' member='230.27000000000001' />
+                          </groupfilter>
+                        </groupfilter>
+                      </groupfilter>
+                    </groupfilter>
+                  </groupfilter>
+                </groupfilter>
+                <order>
+                  <hierarchy name='[none:Anode_Batch_Id:nk]' />
+                  <hierarchy name='[none:C_Rate3_Ce_Avg:qk]' />
+                  <hierarchy name='[none:C_Rate3_Engy_Grav_Ff1:qk]' />
+                  <hierarchy name='[none:Cathode_Batch_Id:nk]' />
+                  <hierarchy name='[none:Electrolyte_Type:nk]' />
+                </order>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.15lqtrm0mduwgs12tz76614ugy3z].[none:Anode_Batch_Id:nk]'>
+            <groupfilter function='level-members' level='[none:Anode_Batch_Id:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.15lqtrm0mduwgs12tz76614ugy3z].[none:Cathode_Batch_Id:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Cathode_Batch_Id:nk]' member='&quot;--&quot;' />
+              <groupfilter function='member' level='[none:Cathode_Batch_Id:nk]' member='&quot;PC-246&quot;' />
+              <groupfilter function='member' level='[none:Cathode_Batch_Id:nk]' member='&quot;PC-247&quot;' />
+              <groupfilter function='member' level='[none:Cathode_Batch_Id:nk]' member='&quot;PC-281&quot;' />
+              <groupfilter function='member' level='[none:Cathode_Batch_Id:nk]' member='&quot;PC-290&quot;' />
+              <groupfilter function='member' level='[none:Cathode_Batch_Id:nk]' member='&quot;PC-294&quot;' />
+              <groupfilter function='member' level='[none:Cathode_Batch_Id:nk]' member='&quot;PC-297&quot;' />
+              <groupfilter function='member' level='[none:Cathode_Batch_Id:nk]' member='&quot;PC-302&quot;' />
+              <groupfilter function='member' level='[none:Cathode_Batch_Id:nk]' member='&quot;PC-307&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.15lqtrm0mduwgs12tz76614ugy3z].[none:Electrolyte_Type:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1659&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1679&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1681&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1938&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1939&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1942&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1943&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1950&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1951&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1952&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1954&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1955&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1956&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1957&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1958&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1959&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1960&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1961&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1962&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1963&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1966&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1967&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1969&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1971&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1972&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1973&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1974&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1975&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1976&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1977&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1978&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1979&quot;' />
+              <groupfilter function='member' level='[none:Electrolyte_Type:nk]' member='&quot;EL1986&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.15lqtrm0mduwgs12tz76614ugy3z].[none:Anode_Batch_Id:nk]</column>
+            <column>[federated.15lqtrm0mduwgs12tz76614ugy3z].[none:Cathode_Batch_Id:nk]</column>
+            <column>[federated.15lqtrm0mduwgs12tz76614ugy3z].[none:Electrolyte_Type:nk]</column>
+            <column>[federated.15lqtrm0mduwgs12tz76614ugy3z].[Exclusions (Anode Batch Id,C Rate3 Cc Ratio Time Avg,C Rate3 Engy Grav Ff1,Cathode Batch Id,Electrolyte Type)]</column>
+            <column>[federated.15lqtrm0mduwgs12tz76614ugy3z].[Exclusions (Anode Batch Id,C Rate3 Average Voltage,C Rate3 Engy Grav Ff1,Cathode Batch Id,Electrolyte Type)]</column>
+            <column>[federated.15lqtrm0mduwgs12tz76614ugy3z].[Exclusions (Anode Batch Id,C Rate3 Ce Avg,C Rate3 Engy Grav Ff1,Cathode Batch Id,Electrolyte Type)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.15lqtrm0mduwgs12tz76614ugy3z].[none:C_Rate3_Cc_Ratio_Time_Avg:qk]' scope='rows' value='Average CC/CV Ratio [%]' />
+            <format attr='title' class='0' field='[federated.15lqtrm0mduwgs12tz76614ugy3z].[none:C_Rate3_Average_Voltage:qk]' scope='rows' value='Cycle 3 Discharge Voltage [V]' />
+            <format attr='title' class='0' field='[federated.15lqtrm0mduwgs12tz76614ugy3z].[none:C_Rate3_Ce_Avg:qk]' scope='rows' value='Average C.E [%]' />
+            <format attr='title' class='0' field='[federated.15lqtrm0mduwgs12tz76614ugy3z].[none:C_Rate3_Engy_Grav_Ff1:qk]' scope='cols' value='Energy Density [wh/kg]' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <shape column='[federated.15lqtrm0mduwgs12tz76614ugy3z].[none:Anode_Batch_Id:nk]' />
+              <color column='[federated.15lqtrm0mduwgs12tz76614ugy3z].[none:Cathode_Batch_Id:nk]' />
+              <lod column='[federated.15lqtrm0mduwgs12tz76614ugy3z].[attr:Electrolyte_Type:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='619' />
+                <format attr='maxwidth' value='619' />
+                <format attr='minheight' value='277' />
+                <format attr='maxheight' value='277' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.15lqtrm0mduwgs12tz76614ugy3z].[none:C_Rate3_Cc_Ratio_Time_Avg:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <shape column='[federated.15lqtrm0mduwgs12tz76614ugy3z].[none:Anode_Batch_Id:nk]' />
+              <color column='[federated.15lqtrm0mduwgs12tz76614ugy3z].[none:Cathode_Batch_Id:nk]' />
+              <lod column='[federated.15lqtrm0mduwgs12tz76614ugy3z].[attr:Electrolyte_Type:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.15lqtrm0mduwgs12tz76614ugy3z].[none:C_Rate3_Average_Voltage:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <shape column='[federated.15lqtrm0mduwgs12tz76614ugy3z].[none:Anode_Batch_Id:nk]' />
+              <color column='[federated.15lqtrm0mduwgs12tz76614ugy3z].[none:Cathode_Batch_Id:nk]' />
+              <lod column='[federated.15lqtrm0mduwgs12tz76614ugy3z].[attr:Electrolyte_Type:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.15lqtrm0mduwgs12tz76614ugy3z].[none:C_Rate3_Ce_Avg:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <shape column='[federated.15lqtrm0mduwgs12tz76614ugy3z].[none:Anode_Batch_Id:nk]' />
+              <color column='[federated.15lqtrm0mduwgs12tz76614ugy3z].[none:Cathode_Batch_Id:nk]' />
+              <lod column='[federated.15lqtrm0mduwgs12tz76614ugy3z].[attr:Electrolyte_Type:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.15lqtrm0mduwgs12tz76614ugy3z].[none:C_Rate3_Cc_Ratio_Time_Avg:qk] + ([federated.15lqtrm0mduwgs12tz76614ugy3z].[none:C_Rate3_Average_Voltage:qk] + [federated.15lqtrm0mduwgs12tz76614ugy3z].[none:C_Rate3_Ce_Avg:qk]))</rows>
+        <cols>[federated.15lqtrm0mduwgs12tz76614ugy3z].[none:C_Rate3_Engy_Grav_Ff1:qk]</cols>
+      </table>
+      <simple-id uuid='{5413C863-A553-4140-9AB3-D035334AE080}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='ED_by_CC2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='136'>
+            <card param='[federated.15lqtrm0mduwgs12tz76614ugy3z].[none:Cathode_Batch_Id:nk]' type='filter' />
+            <card param='[federated.15lqtrm0mduwgs12tz76614ugy3z].[none:Anode_Batch_Id:nk]' type='filter' />
+            <card param='[federated.15lqtrm0mduwgs12tz76614ugy3z].[none:Electrolyte_Type:nk]' type='filter' />
+          </strip>
+          <strip size='134'>
+            <card pane-specification-id='1' param='[federated.15lqtrm0mduwgs12tz76614ugy3z].[none:Cathode_Batch_Id:nk]' type='color' />
+            <card pane-specification-id='1' param='[federated.15lqtrm0mduwgs12tz76614ugy3z].[none:Anode_Batch_Id:nk]' type='shape' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight field='[federated.15lqtrm0mduwgs12tz76614ugy3z].[none:Anode_Batch_Id:nk]' type='shape'>
+          <bucket-selection />
+        </highlight>
+        <default-map-tool-selection tool='4' />
+      </viewpoint>
+      <simple-id uuid='{5792E5B5-28D0-4DF3-A466-5B25875E91E6}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='ED_by_CC2' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

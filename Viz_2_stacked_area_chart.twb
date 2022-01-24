@@ -1,0 +1,546 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20211.21.0511.0935                               -->
+<workbook original-version='18.1' source-build='2021.1.2 (20211.21.0511.0935)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Cell_type_by_week_and_month (Cell_type_by_week_and_month)' inline='true' name='federated.0jsnfg60m6ofif1d24s4o1iscehc' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Cell_type_by_week_and_month' name='excel-direct.1h7ntc80i95pc21c0csmz0vlgjif'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/dafnam/PycharmProjects/DataViz/Viz_2_stacked_area_chart.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1h7ntc80i95pc21c0csmz0vlgjif' name='Cell_type_by_week_and_month' table='[Cell_type_by_week_and_month$]' type='table'>
+          <columns gridOrigin='A1:J16068:no:A1:J16068:0' header='yes' outcome='6'>
+            <column datatype='integer' name='nv' ordinal='0' />
+            <column datatype='string' name='Id' ordinal='1' />
+            <column datatype='string' name='Cell_Type' ordinal='2' />
+            <column datatype='string' name='Created_By' ordinal='3' />
+            <column datatype='date' name='Created_On' ordinal='4' />
+            <column datatype='integer' name='Week_Number' ordinal='5' />
+            <column datatype='date' date-parse-format='MM' name='Month' ordinal='6' />
+            <column datatype='integer' name='Coin' ordinal='7' />
+            <column datatype='integer' name='Pouch' ordinal='8' />
+            <column datatype='integer' name='Pack' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1h7ntc80i95pc21c0csmz0vlgjif' name='Cell_type_by_week_and_month' table='[Cell_type_by_week_and_month$]' type='table'>
+          <columns gridOrigin='A1:J16068:no:A1:J16068:0' header='yes' outcome='6'>
+            <column datatype='integer' name='nv' ordinal='0' />
+            <column datatype='string' name='Id' ordinal='1' />
+            <column datatype='string' name='Cell_Type' ordinal='2' />
+            <column datatype='string' name='Created_By' ordinal='3' />
+            <column datatype='date' name='Created_On' ordinal='4' />
+            <column datatype='integer' name='Week_Number' ordinal='5' />
+            <column datatype='date' date-parse-format='MM' name='Month' ordinal='6' />
+            <column datatype='integer' name='Coin' ordinal='7' />
+            <column datatype='integer' name='Pouch' ordinal='8' />
+            <column datatype='integer' name='Pack' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Cell_type_by_week_and_month]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>2</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:J16068:no:A1:J16068:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nv</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nv]</local-name>
+            <parent-name>[Cell_type_by_week_and_month]</parent-name>
+            <remote-alias>nv</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Cell!type!by!week!and!month_ED3FEF7932D2467FA8EAE29D5E9A235D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Id]</local-name>
+            <parent-name>[Cell_type_by_week_and_month]</parent-name>
+            <remote-alias>Id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Cell!type!by!week!and!month_ED3FEF7932D2467FA8EAE29D5E9A235D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cell_Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Cell_Type]</local-name>
+            <parent-name>[Cell_type_by_week_and_month]</parent-name>
+            <remote-alias>Cell_Type</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Cell!type!by!week!and!month_ED3FEF7932D2467FA8EAE29D5E9A235D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Created_By</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Created_By]</local-name>
+            <parent-name>[Cell_type_by_week_and_month]</parent-name>
+            <remote-alias>Created_By</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Cell!type!by!week!and!month_ED3FEF7932D2467FA8EAE29D5E9A235D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Created_On</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Created_On]</local-name>
+            <parent-name>[Cell_type_by_week_and_month]</parent-name>
+            <remote-alias>Created_On</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Cell!type!by!week!and!month_ED3FEF7932D2467FA8EAE29D5E9A235D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Week_Number</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Week_Number]</local-name>
+            <parent-name>[Cell_type_by_week_and_month]</parent-name>
+            <remote-alias>Week_Number</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Cell!type!by!week!and!month_ED3FEF7932D2467FA8EAE29D5E9A235D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[Cell_type_by_week_and_month]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Cell!type!by!week!and!month_ED3FEF7932D2467FA8EAE29D5E9A235D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Coin</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Coin]</local-name>
+            <parent-name>[Cell_type_by_week_and_month]</parent-name>
+            <remote-alias>Coin</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Cell!type!by!week!and!month_ED3FEF7932D2467FA8EAE29D5E9A235D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pouch</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pouch]</local-name>
+            <parent-name>[Cell_type_by_week_and_month]</parent-name>
+            <remote-alias>Pouch</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Cell!type!by!week!and!month_ED3FEF7932D2467FA8EAE29D5E9A235D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pack</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pack]</local-name>
+            <parent-name>[Cell_type_by_week_and_month]</parent-name>
+            <remote-alias>Pack</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Cell!type!by!week!and!month_ED3FEF7932D2467FA8EAE29D5E9A235D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Cells' datatype='integer' name='[Calculation_889742460211380224]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT([Id])' />
+      </column>
+      <column caption='Cell Type' datatype='string' name='[Cell_Type]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;1i&quot;' value='Pouch' />
+          <alias key='&quot;SFF&quot;' value='Pack' />
+        </aliases>
+      </column>
+      <column caption='Created By' datatype='string' name='[Created_By]' role='dimension' type='nominal' />
+      <column caption='Created On' datatype='date' name='[Created_On]' role='dimension' type='ordinal' />
+      <column datatype='date' name='[Month]' role='dimension' type='quantitative' />
+      <column caption='Week Number' datatype='integer' name='[Week_Number]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Cell_type_by_week_and_month' datatype='table' name='[__tableau_internal_object_id__].[Cell!type!by!week!and!month_ED3FEF7932D2467FA8EAE29D5E9A235D]' role='measure' type='quantitative' />
+      <column-instance column='[Cell_Type]' derivation='None' name='[none:Cell_Type:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Cell_Type:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;1i&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SFF&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Coin&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Israel&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Cell_type_by_week_and_month' id='Cell!type!by!week!and!month_ED3FEF7932D2467FA8EAE29D5E9A235D'>
+            <properties context=''>
+              <relation connection='excel-direct.1h7ntc80i95pc21c0csmz0vlgjif' name='Cell_type_by_week_and_month' table='[Cell_type_by_week_and_month$]' type='table'>
+                <columns gridOrigin='A1:J16068:no:A1:J16068:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='nv' ordinal='0' />
+                  <column datatype='string' name='Id' ordinal='1' />
+                  <column datatype='string' name='Cell_Type' ordinal='2' />
+                  <column datatype='string' name='Created_By' ordinal='3' />
+                  <column datatype='date' name='Created_On' ordinal='4' />
+                  <column datatype='integer' name='Week_Number' ordinal='5' />
+                  <column datatype='date' date-parse-format='MM' name='Month' ordinal='6' />
+                  <column datatype='integer' name='Coin' ordinal='7' />
+                  <column datatype='integer' name='Pouch' ordinal='8' />
+                  <column datatype='integer' name='Pack' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_CE58CC7D15464A2E8057501302F04F08]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Cell Count By Month' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Cell Type' />
+        <param name='target' value='Cell Count By Month' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Cell Count By Month'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Cell Type Count By Month</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Cell_type_by_week_and_month (Cell_type_by_week_and_month)' name='federated.0jsnfg60m6ofif1d24s4o1iscehc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jsnfg60m6ofif1d24s4o1iscehc'>
+            <column caption='Cells' datatype='integer' name='[Calculation_889742460211380224]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Id])' />
+            </column>
+            <column caption='Cell Type' datatype='string' name='[Cell_Type]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;1i&quot;' value='Pouch' />
+                <alias key='&quot;SFF&quot;' value='Pack' />
+              </aliases>
+            </column>
+            <column datatype='string' name='[Id]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Month]' role='dimension' type='quantitative' />
+            <column-instance column='[Month]' derivation='Month' name='[mn:Month:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Month]' derivation='Month' name='[mn:Month:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Cell_Type]' derivation='None' name='[none:Cell_Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_889742460211380224]' derivation='User' name='[usr:Calculation_889742460211380224:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jsnfg60m6ofif1d24s4o1iscehc].[mn:Month:ok]'>
+            <groupfilter function='level-members' level='[mn:Month:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0jsnfg60m6ofif1d24s4o1iscehc].[none:Cell_Type:nk]'>
+            <groupfilter function='level-members' level='[none:Cell_Type:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.0jsnfg60m6ofif1d24s4o1iscehc].[none:Cell_Type:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;1i&quot;</bucket>
+              <bucket>&quot;Coin&quot;</bucket>
+              <bucket>&quot;SFF&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0jsnfg60m6ofif1d24s4o1iscehc].[none:Cell_Type:nk]</column>
+            <column>[federated.0jsnfg60m6ofif1d24s4o1iscehc].[mn:Month:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.0jsnfg60m6ofif1d24s4o1iscehc].[mn:Month:ok]' value='27' />
+            <format attr='title' class='0' field='[federated.0jsnfg60m6ofif1d24s4o1iscehc].[usr:Calculation_889742460211380224:qk]' scope='rows' value='Cell Count' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0jsnfg60m6ofif1d24s4o1iscehc].[mn:Month:ok]' value='127' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0jsnfg60m6ofif1d24s4o1iscehc].[mn:Month:qk]' value='iLLLL' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0jsnfg60m6ofif1d24s4o1iscehc].[none:Cell_Type:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='1524' />
+                <format attr='maxwidth' value='1524' />
+                <format attr='minheight' value='872' />
+                <format attr='maxheight' value='872' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0jsnfg60m6ofif1d24s4o1iscehc].[usr:Calculation_889742460211380224:qk]</rows>
+        <cols>[federated.0jsnfg60m6ofif1d24s4o1iscehc].[mn:Month:ok]</cols>
+      </table>
+      <simple-id uuid='{9F88ADD3-A7AC-4085-A66C-669B00E1C82A}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Cell Count By Month'>
+      <cards>
+        <edge name='left'>
+          <strip size='114'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0jsnfg60m6ofif1d24s4o1iscehc].[mn:Month:ok]' type='filter' />
+            <card param='[federated.0jsnfg60m6ofif1d24s4o1iscehc].[none:Cell_Type:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0jsnfg60m6ofif1d24s4o1iscehc].[none:Cell_Type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0du3hbs0xbv911129i9g81on8hct].[attr:Month:ok]</field>
+            <field>[federated.0du3hbs0xbv911129i9g81on8hct].[none:Coin:qk]</field>
+            <field>[federated.0du3hbs0xbv911129i9g81on8hct].[none:Month:qk]</field>
+            <field>[federated.0du3hbs0xbv911129i9g81on8hct].[none:Pack:qk]</field>
+            <field>[federated.0du3hbs0xbv911129i9g81on8hct].[none:Pouch:qk]</field>
+            <field>[federated.0jsnfg60m6ofif1d24s4o1iscehc].[mn:Month:ok]</field>
+            <field>[federated.0jsnfg60m6ofif1d24s4o1iscehc].[none:Id:nk]</field>
+            <field>[federated.0jsnfg60m6ofif1d24s4o1iscehc].[none:Month:qk]</field>
+            <field>[federated.0jsnfg60m6ofif1d24s4o1iscehc].[tyr:Month:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{7311650D-7220-4C15-8783-3E139347120E}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Cell Count By Month' width='192'>
+      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
+      Hwfikgn7dm5QAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
